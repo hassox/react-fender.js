@@ -1,5 +1,5 @@
 {
-  "name": "react-fender.js",
+  "name": "react-fender",
   "version": "0.1.0",
   "description": "React form generation for fender messages",
   "main": "index.js",
