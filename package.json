@@ -1,0 +1,27 @@
+{
+  "name": "react-fender.js",
+  "version": "0.1.0",
+  "description": "React form generation for fender messages",
+  "main": "index.js",
+  "scripts": {
+    "browser-pack": "jsx src/ build/; browserify --bare -r through -r duplexer -r ./build/message.js > react-fender.js; minify --no-comments react-fender.js"
+  },
+  "author": "Daniel Neighman",
+  "keywords": [
+    "fender",
+    "protob",
+    "protocol buffer",
+    "react",
+    "form"
+  ],
+  "license": "Apache 2.0",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "browserify": "*",
+    "react-tools": "*",
+    "through": "*",
+    "duplexer": "*",
+    "minifier": "*"
+  }
+}
